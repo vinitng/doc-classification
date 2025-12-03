@@ -1,0 +1,12 @@
+spacy
+pytesseract
+opencv-python
+numpy
+python-dateutil
+pip install fastapi uvicorn python-multipart
+uvicorn api:app --reload
+
+
+# Docs UI: http://127.0.0.1:8000/docs
+
+# Use POST /extract_mrz_from_image and upload a passport image.
